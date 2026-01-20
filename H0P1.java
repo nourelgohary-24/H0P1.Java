@@ -1,8 +1,7 @@
 
-import java.lang.Math.*;
 
 /**
- * H0P1.java
+ * H0P.java
  * 
  * This class contains methods to: 
  * - find the largest of two numbers
@@ -13,7 +12,7 @@ import java.lang.Math.*;
  * Version: 1.0
  */
 
-public class H0P1 {
+public class H0P {
     /**
      * Returns the largest of two integers.
      * @param a first integer
@@ -84,7 +83,7 @@ public class H0P1 {
      */
 	
 	
-	public class messy {
+	public class fibonacci {
 
         /**
          * Calculates an amount owed by multiplying the input.
@@ -122,17 +121,18 @@ double TimE;
 double PACE;
 System.out.println("This program calculates your pace given a time and miles traveled.");
 // Time value in minutes (35 minutes and 30 seconds).
-TimE=35.5;	
+TimE= 35.5;	
 // Pace is computed using time divided by distance.				
-PACE=TimE			/distance;
+PACE= TimE / DISTANCE;
 System.out.println("Your pace is "+PACE+" miles per hour.");
 }
 /**
  * Constant distance value used in pace calculation.
  */
-public static final double distance=6.21;
+public static final double DISTANCE = 6.21;
 }
 
 }
+
 
 
