@@ -1,5 +1,3 @@
-
-
 /**
  * H0P.java
  * 
@@ -133,6 +131,8 @@ public static final double DISTANCE = 6.21;
 }
 
 }
+
+
 
 
 
